@@ -10,4 +10,4 @@ reddit = praw.Reddit(client_id = '',
         username = '')
 
 reddit.subreddit('test').submit(title = 'test',
-        url = 'https://www.google.com')
+        selftext = 'testtesttesttesttesttesttest')
